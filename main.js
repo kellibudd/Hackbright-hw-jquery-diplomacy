@@ -6,7 +6,7 @@ function changeColor() {
   const colorChangeEls = $('.color-change');
 
   for (const el of colorChangeEls) {
-    $(el).toggleClass('poop');
+    $(el).toggleClass('red');
   }
 }
 
